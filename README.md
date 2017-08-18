@@ -1,6 +1,6 @@
 # Expo with Storybook
 
-[Expo][www.expo.io] is a great tool for building React Native app. [Storybook][storybook.js.org] is a great tool for building and testing view components. This README describes the steps necessary to get these two great tools to work together. This repository contains the final product of running through these steps.
+[Expo](www.expo.io) is a great tool for building React Native app. [Storybook](storybook.js.org) is a great tool for building and testing view components. This README describes the steps necessary to get these two great tools to work together. This repository contains the final product of running through these steps.
 
 ## Create a new Expo project:
 
