@@ -6,7 +6,7 @@
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "concurrently --kill-others \"storybook start -p 19001\" \"exp start --http\""
+    "storybook": "concurrently --kill-others \"storybook start -p 19001\" \"exp start --http\""
   },
   "dependencies": {
     "expo": "^19.0.0",
