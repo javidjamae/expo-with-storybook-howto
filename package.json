@@ -5,9 +5,19 @@
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"storybook start -p 19001\" \"exp start --http\""
+  },
   "dependencies": {
     "expo": "^19.0.0",
     "react": "16.0.0-alpha.12",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-19.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-19.0.0.tar.gz",
+    "react-native-vector-icons": "^4.3.0"
+  },
+  "devDependencies": {
+    "@storybook/react-native": "^3.2.5",
+    "concurrently": "^3.5.0",
+    "exp": "^44.0.0",
+    "react-dom": "^16.0.0-alpha.12"
   }
 }
