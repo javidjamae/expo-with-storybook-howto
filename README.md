@@ -110,6 +110,13 @@ export default (__DEV__
   : require('./src').defaut);
 ```
 
+In my opinion, this is not the ideal way to set it up in a real app, because it will always display Storybook on your local machine and you can only see the real app when you build / publish to expo.
+
+[According to the
+documentation](https://github.com/storybooks/storybook/tree/master/app/react-native#create-react-native-app-crna):
+
+> Alternatively, StorybookUI is simply a RN View component that can be embedded anywhere in your RN application, e.g. on a tab or within an admin screen.
+
 ## Start Storybook and the simulator
 ```
 $ npm run storybook
