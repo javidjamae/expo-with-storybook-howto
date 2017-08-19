@@ -116,3 +116,10 @@ $ npm run storybook
 ```
 
 Go to [http://localhost:19001/](http://localhost:19001/)
+
+## References
+* [Storybook for React Native](https://github.com/storybooks/storybook/tree/master/app/react-native)
+* [Storybook for React Native - Manual Setup instructions](https://github.com/storybooks/storybook/blob/master/app/react-native/docs/manual-setup.md)
+* [An open-source app that uses Storybook](https://github.com/serlo-org/serlo-abc)
+* [Using React Native Storybook 2 with Create React Native App](https://medium.com/@inyono/using-react-native-storybook-with-create-react-native-app-471e531bb128)
+* [Storybook for React documentation](https://storybook.js.org/basics/guide-react/)
