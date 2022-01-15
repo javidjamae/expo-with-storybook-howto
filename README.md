@@ -107,7 +107,7 @@ Create a new `/App.js` that looks like this:
 ```
 export default (__DEV__
   ? require('./storybook').default
-  : require('./src').defaut);
+  : require('./src').default);
 ```
 
 In my opinion, this is not the ideal way to set it up in a real app, because it will always display Storybook on your local machine and you can only see the real app when you build / publish to expo.
